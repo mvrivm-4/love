@@ -316,33 +316,33 @@
 //     this.document.body.style.backgroundColor = "red"
 // }
 // تطبيق مشروع تحويل العمله
-// let egy = document.getElementById("love")
-// let usd = document.getElementById("lovee")
-// usd.addEventListener("keyup", function() {
-//     egy.value = usd.value * 15.3
-// })
-// egy.addEventListener("keyup", function() {
-//     usd.value = egy.value / 15.3
-// })
+let egy = document.getElementById("love")
+let usd = document.getElementById("lovee")
+usd.addEventListener("keyup", function() {
+    egy.value = usd.value * 15.3
+})
+egy.addEventListener("keyup", function() {
+    usd.value = egy.value / 15.3
+})
 // 
 // 
 //
-let after = document.getElementById("after")
-let ss = document.getElementById("pefore")
-let side = document.getElementById("side")
-let contant = document.getElementById("contant")
-let div = document.getElementById("div")
-div.style.width = "100%"
-div.style.height = "200px"
-div.style.backgroundColor = "red"
-after.addEventListener("click", function() {
-    div.after(contant)
-})
-ss.onclick = function() {
-    div.before(contant)
-}
-side.addEventListener("click", function() {
-    div.appendChild(contant)
-})
-document.body.style.color = "white"
-document.body.style.backgroundColor = "black"
+// let after = document.getElementById("after")
+// let ss = document.getElementById("pefore")
+// let side = document.getElementById("side")
+// let contant = document.getElementById("contant")
+// let div = document.getElementById("div")
+// div.style.width = "100%"
+// div.style.height = "200px"
+// div.style.backgroundColor = "red"
+// after.addEventListener("click", function() {
+//     div.after(contant)
+// })
+// ss.onclick = function() {
+//     div.before(contant)
+// }
+// side.addEventListener("click", function() {
+//     div.appendChild(contant)
+// })
+// document.body.style.color = "white"
+// document.body.style.backgroundColor = "black"
